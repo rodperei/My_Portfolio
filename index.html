@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+<title>ralmada</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+		<ul class="vertbar">
+			<li>
+				<a href="#">Rodrigo Almada</a>
+				<a onclick=hideVertbar()><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+			</li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Resume</a></li>
+		</ul>
+		<ul>
+			<li><a href="#">Rodrigo Almada</a></li>
+			<li class="hideOnMobile"><a href="#">Home</a></li>
+			<li class="hideOnMobile"><a href="#">About</a></li>
+			<li class="hideOnMobile"><a href="#">Resume</a></li>
+			<li class="menuButton" onclick=showVertbar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+		</ul>
+	</nav>
+	<h1>Hello, I'm Rodrigo</h1>
+	<p>I am a junior developer ready to contribute to production-grade codebases
+	with a foundation in C, and a drive for Object-Oriented Programming
+	excellence.</p>
+
+	<script src="script.js"></script>
+</body>
+</html>

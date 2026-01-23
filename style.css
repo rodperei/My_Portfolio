@@ -6,6 +6,14 @@ a{
 	text-decoration: none;
 	color: rgb(66 63 63);
 }
+code {
+  font-family: 'Fira Code', 'Courier New', monospace;
+  background-color: rgba(0, 0, 0, 0.05); /* Adds a subtle tint to the existing bg */
+	color: rgb(66 63 63);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
 h1{
 	text-align: center;
 	font-family: 'Space Mono', serif;
@@ -80,16 +88,6 @@ nav li:first-child a{
 	display: none;
 }
 
-@media(max-width: 800px)
-{
-	.hideOnMobile{
-		display: none;
-	}
-	.menuButton{
-		display: block;
-	}
-}
-
 .proj_button{
 	display: flex;
 	justify-content: center;
@@ -121,4 +119,62 @@ nav li:first-child a{
 	width: 490px;
 	height: auto;
 	z-index: 2;
+}
+
+.proj_table{
+	list-style: none;
+	margin-left: 20px;
+	margin-right: 20px;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.proj_table li{
+	margin: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 5px solid rgb(210, 190, 150);
+	border-radius: 5px;
+}
+.proj_table li h3{
+	text-align: start;
+}
+.proj_table li ul{
+	color: rgb(66 63 63);
+	list-style: inside;
+}
+.proj_table li ul li{
+	border: none;
+}
+
+.git_button{
+	display: inline-flex;
+	margin: 3px;
+	align-items: center;
+	background-color: rgb(80, 75, 70);
+	border: none;
+	color: rgb(247, 231, 200);
+	font-size: 15px;
+	padding: 12px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.git_button:hover{
+	background-color: rgb(60, 55, 50);
+}
+.git_icon{
+	color: rgb(247, 231, 200);
+}
+
+@media(max-width: 800px)
+{
+	.hideOnMobile{
+		display: none;
+	}
+	.menuButton{
+		display: block;
+	}
+	.proj_table{
+		grid-template-columns: 1fr;
+	}
 }

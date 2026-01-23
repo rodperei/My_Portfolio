@@ -12,8 +12,9 @@ h1{
 	font-weight: 500; /* Bold */
 }
 h2, h3, h4 {
-  font-family: 'Space Mono', serif;
-  font-weight: 700; /* Bold */
+	text-align: center;
+	font-family: 'Space Mono', serif;
+	font-weight: 700; /* Bold */
 }
 p{
 	color: rgb(66 63 63);
@@ -87,4 +88,37 @@ nav li:first-child a{
 	.menuButton{
 		display: block;
 	}
+}
+
+.proj_button{
+	display: flex;
+	justify-content: center;
+}
+.button{
+	display: grid;
+	grid-auto-rows: minmax(150px, auto);
+	grid-auto-columns: minmax(150px, auto);
+	justify-items: center;
+	align-items: center;
+	aspect-ratio: 1/1;
+}
+.fx{
+	grid-column-start: 1;
+	grid-row-start: 1;
+	max-width: 80%;
+	max-height: 80%;
+	transform: rotate(15deg);
+	border-radius: 20px;
+	width: 490px;
+	height: 490px;
+	background-color: rgb(255, 160, 59);
+}
+.msh{
+	grid-column-start: 1;
+	grid-row-start: 1;
+	max-width: 80%;
+	border-radius: 20px;
+	width: 490px;
+	height: auto;
+	z-index: 2;
 }

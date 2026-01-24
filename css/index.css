@@ -59,6 +59,24 @@ nav li:first-child{
 nav li:first-child a{
 	color: black;
 }
+hr{
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 1px;
+	border: none;
+	background-color: black;
+}
+footer{
+	display: flex;
+	justify-content: center;
+}
+footer a{
+	margin: 20px;
+	color: rgb(89 89 89);
+}
+footer *:hover{
+	font-weight: bold;
+}
 
 .vertbar{
 	position: fixed;
@@ -139,20 +157,21 @@ nav li:first-child a{
 .proj_table li h3{
 	text-align: start;
 }
-.proj_table li ul{
-	color: rgb(66 63 63);
-	list-style: inside;
-}
 .proj_table li ul li{
 	border: none;
+}
+.proj_cell{
+	color: rgb(66 63 63);
+	list-style: inside;
 }
 
 .git_button{
 	display: inline-flex;
 	margin: 3px;
 	align-items: center;
-	background-color: rgb(80, 75, 70);
+	align-self: end;
 	border: none;
+	background-color: rgb(60, 55, 50);
 	color: rgb(247, 231, 200);
 	font-size: 15px;
 	padding: 12px;
@@ -160,10 +179,22 @@ nav li:first-child a{
 	cursor: pointer;
 }
 .git_button:hover{
-	background-color: rgb(60, 55, 50);
+	background-color: rgb(80, 75, 70);
 }
 .git_icon{
 	color: rgb(247, 231, 200);
+	fill: white;
+}
+
+.appeal{
+	font-size: 20px;
+	text-align: center;
+	font-weight: 450;
+}
+
+.email{
+	text-decoration: underline;
+	color: rgb(130 76 167);
 }
 
 @media(max-width: 800px)

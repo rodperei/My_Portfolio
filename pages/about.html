@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ralmada - About</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/about.css">
+</head>
+<body>
+	<nav>
+		<ul class="vertbar">
+			<li>
+				<span>Rodrigo Almada</span>
+				<a onclick=hideVertbar()><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+			</li>
+			<li><a href="../index.html">Home</a></li>
+			<li><span><b>About</b></span></li>
+			<li><a href="../assets/files/CV_Inglês.pdf" target="_blank">Resume</a></li>
+		</ul>
+		<ul class="hbar">
+			<li><span>Rodrigo Almada</span></li>
+			<li class="hideOnMobile"><a href="../index.html">Home</a></li>
+			<li class="hideOnMobile"><span><b>About</b></span></li>
+			<li class="hideOnMobile"><a href="assets/files/CV_Inglês.pdf" target="_blank">Resume</a></li>
+			<li class="menuButton" onclick=showVertbar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+		</ul>
+	</nav>
+	<div class="welcome">
+		<img src="../assets/images/profile_photo.png" alt="Personal_Photo.png">
+		<div>
+			<h2>Hello again!</h2>
+			<p>I'm Rodrigo Almada, based in Aveiro, currently developing C++
+			small exercises projects, to practice Object-Oriented Programming,
+			as a 42 Porto Student.</p>
+			<p>Throughout my lerning journey, I've studied many disciplines:
+			Computer Architecture, Digital Systems, Object-Oriented Programming,
+			Computer Graphics. These diverse experiences have shaped a strong
+			skillset that I bring to my development work every day.</p>
+		</div>
+	</div>
+	<br>
+	<div class="Education">
+		<h2>Education</h2>
+		<div class="middle_item">
+			<span><b>Bachelor's Degree (84 ECTS Completed) | Universidade de
+				Aveiro</b></span>
+			<span>Eletrical and Computer Engineering - 2018</span>
+		</div>
+		<div class="last_item">
+			<span><b>Common Core (692h Completed) | 42 Porto</b></span>
+			<span>Computer Science - 2025</span>
+		</div>
+	</div>
+	<br>
+	<br>
+	<div class="skills">
+		<h2>C Programming Shill Roadmap</h2>
+		<h3>Entry-Level: Core Fundamentals</h3>
+		<ul>
+			<li><b>Universal Programming Concepts:</b> Proficiency Proficiency
+				in variables, data types, typecasting, operators, and control
+				structures (conditionals and loops).</li>
+			<li><b>Syntax & Semantics:</b> Understanding the basic C structure,
+				the compilation process, and array manipulation.</li>
+			<li><b>Development Workflow:</b>Utilizing standard language
+				infrastructure to write, test, and debug simple console
+				applications.</li>
+		</ul>
+		<h3>Middle-Level: Systems & Structure</h3>
+		<ul>
+			<li><b>Advanced Data Handling:</b> Mastering pointers,
+				multi-dimensional arrays, and data aggregates like <code>structs
+				</code> and <code>unions.</code></li>
+			<li><b>Modular Programming:</b> Implementing modular code design
+				using header files and the C preprocessor.</li>
+			<li><b>Memory Management:</b> Professional-grade use of dynamic
+				memory allocation (<code>malloc</code>, <code>calloc</code>,
+				<code>realloc</code>, <code>free</code>).</li>
+			<li><b>Functional Design:</b> Deep understanding of function scopes,
+				recursion, and structured programming techniques.</li>
+		</ul>
+		<h3>Advanced-Level: Low-Level Mastery & Systems</h3>
+		<ul>
+			<li><b>System-Level I/O:</b> Performing low-level I/O using system
+				calls, file descriptors, and <code>stdarg.h</code> macros for
+				variable-length arguments.</li>
+			<li><b>Concurrency & Networking:</b> Implementing multi-threading
+				(POSIX/Windows models), process management, and socket
+				programming for network applications.</li>
+			<li><b>Optimization & Precision:</b> Working with floating-point
+				precision, multi-precision libraries, and efficient
+				string/memory algorithms.</li>
+		</ul>
+	</div>
+	<div class="personal">
+		<h2>Beyond the code...</h2>
+		<p>I spend much of my time with the **Etos Vocal Ensemble**. It’s a
+		project I’m deeply passionate about, where we focus on choral harmony
+		and a shared pursuit of sonic excellence. Feel free to explore what we
+		do: <a href="https://www.instagram.com/etos_vocalensemble?igsh=MXJ4aTdwN3p2eWI0Mg==">
+			Etos Vocal Ensemble</a> 😉</p>
+	</div>
+	<p style="text-align: center;">[Photo Gallery to be Inserted]</p>
+	<br>
+
+	<hr>
+	<footer>
+		<a href="https://www.linkedin.com/in/rodperei" target="_blank">LinkedIn</a>
+	</footer>
+
+	<script src="../script.js"></script>
+</body>
+</html>

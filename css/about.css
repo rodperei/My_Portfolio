@@ -156,6 +156,10 @@ footer *:hover{
 .personal{
 	margin: 7%;
 }
+.personal a{
+	text-decoration: underline;
+	color: rgb(130 76 167);
+}
 
 @media(max-width: 1024px)
 {
